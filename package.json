@@ -1,0 +1,39 @@
+{
+  "name": "vitali-server",
+  "version": "1.0.0",
+  "description": "Hosting http server with R code using r-script",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitali87/vitali-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "R",
+    "r-script",
+    "express",
+    "http",
+    "api",
+    "server"
+  ],
+  "author": "Vitali Avagyan eheva87@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitali87/vitali-server/issues"
+  },
+  "homepage": "https://github.com/vitali87/vitali-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "apollo-server-lambda": "^2.15.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "file:node_modules/graphql",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
